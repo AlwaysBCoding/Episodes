@@ -1,0 +1,51 @@
+Figwheel: focusing on build-ids (dev)
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.167 seconds.[0m
+notifying browser that file changed:  resources/public/javascripts/dev.js
+notifying browser that file changed:  resources/public/javascripts/cljs-dev/goog/deps.js
+notifying browser that file changed:  /helloworld/title.js
+notifying browser that file changed:  /helloworld/core.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.151 seconds.[0m
+notifying browser that file changed:  resources/public/javascripts/dev.js
+notifying browser that file changed:  /helloworld/core.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.133 seconds.[0m
+notifying browser that file changed:  /helloworld/title.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.14 seconds.[0m
+notifying browser that file changed:  /helloworld/core.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.133 seconds.[0m
+notifying browser that file changed:  /helloworld/title.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.145 seconds.[0m
+notifying browser that file changed:  /helloworld/core.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.147 seconds.[0m
+notifying browser that file changed:  /helloworld/core.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.15 seconds.[0m
+notifying browser that file changed:  /helloworld/core.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.141 seconds.[0m
+notifying browser that file changed:  /helloworld/core.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.153 seconds.[0m
+notifying browser that file changed:  /helloworld/core.js
+Figwheel: focusing on build-ids (dev)
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.154 seconds.[0m
+notifying browser that file changed:  resources/public/javascripts/dev.js
+notifying browser that file changed:  resources/public/javascripts/cljs-dev/goog/deps.js
+notifying browser that file changed:  /helloworld/title.js
+notifying browser that file changed:  /helloworld/core.js
+sending changed CSS file: resources/public/stylesheets/styles.css
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.183 seconds.[0m
+notifying browser that file changed:  /helloworld/core.js
+sending changed CSS file: resources/public/stylesheets/styles.css
+sending changed CSS file: resources/public/stylesheets/styles.css
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.172 seconds.[0m
+notifying browser that file changed:  /helloworld/core.js

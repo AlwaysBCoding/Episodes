@@ -1,0 +1,11 @@
+h1.title {
+  background-color: coral;
+}
+
+.player-row {
+  cursor: pointer;
+
+  &.active {
+    background-color: yellow;
+  }
+}

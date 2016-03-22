@@ -1,0 +1,8 @@
+1. make a Dockerfile
+2. build a container from the Dockerfile
+3. run the newly built container to test locally
+4. push that container to Docker Hub
+
+NEXT:
+5. setup ECS on Amazon (ECS = Elastic Container Service)
+
