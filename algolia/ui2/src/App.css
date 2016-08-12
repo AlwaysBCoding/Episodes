@@ -1,0 +1,61 @@
+.App {
+
+}
+
+em {
+  background-color: aqua;
+}
+
+input:focus {
+  outline: none;
+}
+
+h1 {
+  margin-top: 0px;
+  margin-bottom: 15px;
+}
+
+table {
+  border-spacing: 50px 0;
+}
+
+tr {
+}
+
+th {
+
+}
+
+td {
+}
+
+.App-Header {
+  background-color: #222;
+  height: 100px;
+  padding: 20px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.App-Content {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.search {
+  width: 50%;
+  padding: 10px 5px 10px 5px;
+  font-size: 1em;
+  font-weight: bold;
+  text-align: center;
+}

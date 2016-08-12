@@ -39,9 +39,9 @@ class TwitchBot
         content = $~[1]
         username = message.match(/@(.*).tmi.twitch.tv/)[1]
 
-        if content.include? "coffee"
-          write_to_chat("PUT THAT COFFEE DOWN!!")
-        end
+        # if content.include? "coffee"
+        #   write_to_chat("PUT THAT COFFEE DOWN!!")
+        # end
 
         command = <<-OSASCRIPT
         osascript -e 'display notification "#{content}" with title "#{username}"'

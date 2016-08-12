@@ -1,0 +1,16 @@
+default: &default
+  adapter: postgresql
+  pool: 5
+  timeout: 5000
+
+development:
+  <<: *default
+  database: algolia_development
+
+test:
+  <<: *default
+  database: algolia_test
+
+production:
+  <<: *default
+  database: db/production.sqlite3

@@ -1,0 +1,23 @@
+<h1>Hello World!!</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Player Name</th>
+      <th>Position</th>
+      <th>Team</th>
+      <th>Points</th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @players.each do |player| %>
+      <tr>
+        <td><%= player.display_name %></td>
+        <td><%= player.position %></td>
+        <td><%= player.team_display_name %></td>
+        <td><%= player.points %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
