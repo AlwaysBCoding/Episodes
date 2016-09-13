@@ -23,18 +23,19 @@ class App extends Component {
       this.setState({
         board: this.state.board,
         currentTurn: this.state.currentTurn === this.state.PLAYER_ONE_SYMBOL ? this.state.PLAYER_TWO_SYMBOL : this.state.PLAYER_ONE_SYMBOL,
-        winner: winner,
+        // winner: winner,
       })
     }
   }
 
   checkForWinner() {
+    var renderContext = this
     var currentTurn = this.state.currentTurn
     var symbols = this.state.board
     var winningCombos = [[0, 1, 2], [3, 4, 5], [6, 7, 8], [0, 3, 6], [1, 4, 7], [2, 5, 8], [0, 4, 8], [2, 4, 6]]
     return winningCombos.find(function(combo) {
       if(symbols[combo[0]] == symbols[combo[1]] && symbols[combo[1]] == symbols[combo[2]]) {
-        return this.state.currentTurn
+        return renderContext.state.currentTurn
       } else {
         return false
       }
