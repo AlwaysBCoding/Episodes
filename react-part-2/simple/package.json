@@ -1,0 +1,24 @@
+{
+  "name": "simple",
+  "version": "0.0.1",
+  "private": true,
+  "devDependencies": {
+    "react-scripts": "0.9.5"
+  },
+  "dependencies": {
+    "events": "^1.1.1",
+    "express": "^4.15.2",
+    "history": "^2.0.1",
+    "lodash": "^4.17.4",
+    "q": "^1.5.0",
+    "react": "^15.5.3",
+    "react-dom": "^15.5.3",
+    "react-router": "^2.0.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
