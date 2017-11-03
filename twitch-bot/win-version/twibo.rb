@@ -55,7 +55,7 @@ class TwitchBot
 
   def mid_checks
     @curr_time = Time.now.to_i # checking current time and converting to int only (seconds)
-    if (@curr_time.to_i - @prev_time.to_i) > 180 # if 3 minutes has passed do the following
+    if (@curr_time.to_i - @prev_time.to_i) > 120 # if 2 minutes has passed do the following
       puts "Bot ponging the twitch servers - KEEP US ALIVE!" # this can be commented out to remove console spam
       write_to_server("PONG tmi.twitch.tv") # keeping connection alive with twitch
       @prev_time = Time.now.to_i # resetting comparisment variable to prep for a new round of 3 minutes
