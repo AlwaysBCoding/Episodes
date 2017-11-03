@@ -1,1 +1,1 @@
-growlnotify /t:"TwitchChat" /i:".\jb.png" "What the fuck is going on there dude?" 
+growlnotify /t:"TwitchChat" /i:".\jb.png" "Toasting to the world!" 
